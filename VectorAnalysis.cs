@@ -5,7 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Введите размерность матрицы (n): ");
+        Console.WriteLine("Введите размерность квадратной матрицы (NxN): ");
         int n = int.Parse(Console.ReadLine());
 
         Complex[,] matrix = new Complex[n, n];
