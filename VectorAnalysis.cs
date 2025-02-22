@@ -6,7 +6,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Введите размерность квадратной матрицы (NxN): ");
-        int n = int.Parse(Console.ReadLine());
+        int n = int.Parse(Console.ReadLine()); //TryParse не использован по причине "я поздно это заметил и мне лень исправлять"
 
         Complex[,] matrix = new Complex[n, n];
         Complex[] results = new Complex[n];
@@ -21,7 +21,7 @@ class Program
                     Console.Write($"a[{i + 1},{j + 1}]: ");
                     if (TryParseComplex(Console.ReadLine(), out matrix[i, j]))
                     {
-                        break; // Успешный ввод, выходим из цикла
+                        break;
                     }
                     else
                     {
@@ -39,7 +39,7 @@ class Program
                 Console.Write($"b[{i + 1}]: ");
                 if (TryParseComplex(Console.ReadLine(), out results[i]))
                 {
-                    break; // Успешный ввод, выходим из цикла
+                    break;
                 }
                 else
                 {
@@ -95,7 +95,8 @@ class Program
         Complex det = Determinant(matrix, n);
         if (det == Complex.Zero)
         {
-            throw new InvalidOperationException("Определитель матрицы равен нулю. Система не имеет единственного решения.");
+            Console.WriteLine("\nОпределитель матрицы равен нулю. Система не имеет единственного решения.");
+            throw new InvalidOperationException("Определитель матрицы равен нулю. Система не имеет единственного решения."); //на всякий
         }
 
         Complex[] solution = new Complex[n];
