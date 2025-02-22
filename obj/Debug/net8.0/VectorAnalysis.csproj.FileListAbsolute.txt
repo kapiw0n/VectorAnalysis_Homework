@@ -1,0 +1,14 @@
+C:\Users\flatl\source\repos\VectorAnalysis\bin\Debug\net8.0\VectorAnalysis.exe
+C:\Users\flatl\source\repos\VectorAnalysis\bin\Debug\net8.0\VectorAnalysis.deps.json
+C:\Users\flatl\source\repos\VectorAnalysis\bin\Debug\net8.0\VectorAnalysis.runtimeconfig.json
+C:\Users\flatl\source\repos\VectorAnalysis\bin\Debug\net8.0\VectorAnalysis.dll
+C:\Users\flatl\source\repos\VectorAnalysis\bin\Debug\net8.0\VectorAnalysis.pdb
+C:\Users\flatl\source\repos\VectorAnalysis\obj\Debug\net8.0\VectorAnalysis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flatl\source\repos\VectorAnalysis\obj\Debug\net8.0\VectorAnalysis.AssemblyInfoInputs.cache
+C:\Users\flatl\source\repos\VectorAnalysis\obj\Debug\net8.0\VectorAnalysis.AssemblyInfo.cs
+C:\Users\flatl\source\repos\VectorAnalysis\obj\Debug\net8.0\VectorAnalysis.csproj.CoreCompileInputs.cache
+C:\Users\flatl\source\repos\VectorAnalysis\obj\Debug\net8.0\VectorAnalysis.dll
+C:\Users\flatl\source\repos\VectorAnalysis\obj\Debug\net8.0\refint\VectorAnalysis.dll
+C:\Users\flatl\source\repos\VectorAnalysis\obj\Debug\net8.0\VectorAnalysis.pdb
+C:\Users\flatl\source\repos\VectorAnalysis\obj\Debug\net8.0\VectorAnalysis.genruntimeconfig.cache
+C:\Users\flatl\source\repos\VectorAnalysis\obj\Debug\net8.0\ref\VectorAnalysis.dll
